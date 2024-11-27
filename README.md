@@ -2,9 +2,9 @@
 # Jogo de Adivinhação
 
 Este é um projeto desenvolvido como parte da disciplina Paradigmas de Linguagens de Programação, ministrada pela professora Aline Dos Santos. O objetivo principal é explorar conceitos de programação em Java através da criação de um jogo interativo.
-
-
-
+Alunos participantes  
+João Vitor Leal Targino RGM 31050379
+Luis Gustavo de Carvalho Briedis RGM 31260381
 
 
 ## 📋 Descrição do Projeto
