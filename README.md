@@ -67,7 +67,7 @@ Este projeto permitiu aplicar conceitos de:
 
 ## 👩‍🏫 Professora Orientadora
 
-Este projeto foi orientado pela professora Aline Dos Santos, no curso de Paradigmas de Linguagens de Programação, na Universidade Braz Cubas
+Este projeto foi orientado pela professora Aline Dos Santos, no curso de Paradigmas de Linguagens de Programação, na Universidade Braz Cubas UBC
 ## ✨ Melhorias Futuras
 
 - Adicionar níveis de dificuldade para os modos de jogo.
