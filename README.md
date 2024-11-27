@@ -1,18 +1,75 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Jogo de Adivinhação
 
-## Folder Structure
+Este é um projeto desenvolvido como parte da disciplina Paradigmas de Linguagens de Programação, ministrada pela professora Aline Dos Santos. O objetivo principal é explorar conceitos de programação em Java através da criação de um jogo interativo.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## 📋 Descrição do Projeto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+O Jogo de Adivinhação é composto por dois modos principais:
+
+    1. Adivinhar o Número: O jogador tenta adivinhar um número secreto gerado aleatoriamente entre 1 e 100.
+    2. Adivinhar a Palavra: O jogador tenta adivinhar uma palavra original a partir de sua versão embaralhada.
+O projeto utiliza Java Swing para construir a interface gráfica e garantir uma interação amigável com o usuário.
+
+
+
+
+
+## 🚀 Funcionalidades
+
+- Interface gráfica intuitiva e colorida.
+- Modo de jogo de números:
+- Dicas como "Muito Alto" ou "Muito Baixo".
+- Pontuação baseada nos acertos.
+- Modo de jogo de palavras:
+- Apresenta uma palavra embaralhada.
+- Pontuação acumulada por acertos.
+- Retorno ao menu principal a qualquer momento.
+- Exibição da pontuação atual no menu principal.
+
+
+## 🛠️ Tecnologias Utilizadas
+
+## 📂 Estrutura do Projeto
+
+resources/  
+└── files Lista de Palavras.txt # Arquivo com as palavras usadas no jogo  
+src/  
+├── Main.java                   # Classe principal para inicializar o jogo  
+├── Player.java                 # Gerencia a pontuação do jogador  
+├── PanelMenuPrincipal.java     # Menu principal para escolher o modo de jogo  
+├── PanelAdivinharNumero.java   # Implementa o modo de adivinhação de números  
+├── PanelAdivinharPalavra.java  # Implementa o modo de adivinhação de palavras  
+└── PalavrasEmbaralhada.java    # Gerencia o carregamento e embaralhamento de palavras
+ 
+
+## Como Executar o Projeto
+
+    1. Certifique-se de ter o Java JDK instalado (versão 8 ou superior).
+    2. Clone o repositório:
+        git clone https://github.com/seu-usuario/jogo-adivinhacao.git
+    3. Importe o projeto em sua IDE (como IntelliJ IDEA ou Eclipse).
+    4. Compile e execute o arquivo Main.java.
+    
+## 📚 Aprendizados
+
+Este projeto permitiu aplicar conceitos de:
+
+- Manipulação de arquivos para carregar palavras.
+- Interface gráfica com Java Swing.
+- Orientação a Objetos, com encapsulamento e reuso de código.
+- Utilização de coleções e manipulação de strings.
+
+## 👩‍🏫 Professora Orientadora
+
+Este projeto foi orientado pela professora Aline Dos Santos, no curso de Paradigmas de Linguagens de Programação, na Universidade Braz Cubas
+## ✨ Melhorias Futuras
+
+- Adicionar níveis de dificuldade para os modos de jogo.
+- Melhorar o design da interface gráfica com bibliotecas modernas como JavaFX.
+- Persistência de dados (salvar pontuação em arquivos ou banco de dados).
