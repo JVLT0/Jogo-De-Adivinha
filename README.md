@@ -36,6 +36,11 @@ O projeto utiliza Java Swing para construir a interface gráfica e garantir uma 
 
 ## 🛠️ Tecnologias Utilizadas
 
+ - Linguagem de Programação: Java
+ - Framework Gráfico: Swing
+ - Gerenciamento de pontuação através de uma classe Player.
+
+
 ## 📂 Estrutura do Projeto
 
 resources/  
